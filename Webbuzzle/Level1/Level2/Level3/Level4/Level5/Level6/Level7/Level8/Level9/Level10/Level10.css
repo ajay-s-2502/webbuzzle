@@ -1,0 +1,288 @@
+body{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(44,62,80,1) 100%);
+}
+.main{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 6vw -18vh 2px 3px #fff,
+                -12vw 1vh 1px 1px #fff,
+                -10vw 41vh 1px 1px #fff,
+                -22vw 12vh 1px 0px #fff,
+                -41vw 4vh 2px 1px #fff,
+                -1vw -18vh 0px 1px #fff,
+                25vw 28vh 3px 3px #fff,
+                -9vw 7vh 1px 2px #fff,
+                40vw 47vh 2px 1px #fff,
+                -4vw 21vh 2px 3px #fff,
+                9vw -27vh 0px 0px #fff,
+                -3vw 50vh 0px 3px #fff,
+                9vw 12vh 3px 3px #fff,
+                -25vw -41vh 2px 3px #fff,
+                46vw 44vh 3px 1px #fff,
+                -36vw -48vh 1px 0px #fff,
+                11vw -48vh 1px 3px #fff,
+                -9vw 2vh 1px 1px #fff,
+                -17vw 13vh 1px 0px #fff,
+                47vw -40vh 2px 0px #fff,
+                38vw 32vh 1px 3px #fff,
+                -2vw -39vh 2px 0px #fff,
+                -15vw -32vh 3px 1px #fff,
+                -35vw 25vh 3px 2px #fff,
+                26vw 31vh 1px 1px #fff,
+                -8vw 24vh 0px 1px #fff,
+                0vw -34vh 1px 0px #fff,
+                17vw 23vh 0px 1px #fff,
+                -24vw 5vh 2px 3px #fff,
+                -50vw 18vh 2px 2px #fff,
+                -18vw -12vh 2px 2px #fff,
+                35vw -40vh 2px 3px #fff,
+                -35vw 31vh 1px 2px #fff,
+                7vw 4vh 1px 0px #fff,
+                -10vw -8vh 0px 1px #fff,
+                -10vw -29vh 1px 2px #fff,
+                21vw 8vh 2px 1px #fff,
+                -35vw 15vh 1px 1px #fff,
+                32vw 44vh 0px 0px #fff,
+                -19vw -26vh 1px 2px #fff,
+                -19vw 49vh 3px 1px #fff,
+                -17vw 8vh 2px 2px #fff,
+                9vw 38vh 1px 2px #fff,
+                -35vw 44vh 2px 1px #fff,
+                34vw 2vh 1px 1px #fff,
+                -11vw 12vh 3px 2px #fff,
+                13vw 4vh 2px 0px #fff,
+                15vw 14vh 3px 2px #fff,
+                -8vw 24vh 0px 3px #fff,
+                -1vw -33vh 3px 2px #fff,
+                18vw 16vh 0px 0px #fff,
+                11vw 18vh 0px 2px #fff,
+                -21vw 9vh 1px 2px #fff,
+                -37vw 15vh 0px 0px #fff,
+                -28vw 3vh 3px 1px #fff,
+                15vw 31vh 0px 0px #fff,
+                32vw 44vh 1px 1px #fff,
+                9vw 16vh 3px 2px #fff,
+                -39vw 48vh 1px 2px #fff,
+                -13vw 42vh 2px 3px #fff,
+                -48vw -9vh 1px 2px #fff;
+    animation : zoom 10s infinite alternate;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+#grid
+{
+    width: 402px;
+    height: 402px;
+    border: 5px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #999;
+    box-shadow: 0px 0px 35px darkgreen;
+}
+
+.index
+{
+    height: 133px;
+    width: 133px;
+    font-size: 0.1px;
+}
+
+#p11
+{
+    background: url("11.jpg");
+    background-size: contain;
+}
+#p12
+{
+    background: url("12.jpg");
+    background-size: contain;
+}
+#p13
+{
+    background: url("13.jpg");
+    background-size: contain;
+}
+#p21
+{
+    background: url("21.jpg");
+    background-size: contain;
+}
+#p22
+{
+    background: url("22.jpg");
+    background-size: contain;
+}
+#p23
+{
+    background: url("23.jpg");
+    background-size: contain;
+}
+#p31
+{
+    background: url("31.jpg");
+    background-size: contain;
+}
+#p32
+{
+    background: url("32.jpg");
+    background-size: contain;
+}
+#p33
+{
+    background: url("33.jpg");
+    background-size: contain;
+}
+
+#launch
+{
+    width: 180px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+#launch:hover
+{
+    background-color: chartreuse;
+    color: black;
+}
+
+#next
+{
+    width: 170px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 6px;
+    border: 2px solid black;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    float: right;
+    margin-right: 560px;
+}
+
+#next:hover
+{
+    color: black;
+    background-color: chartreuse;
+}
+
+#replay
+{
+    width: 170px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 6px;
+    border: 2px solid black;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    float: left;
+    margin-left: 560px;
+}
+
+#replay:hover
+{
+    color: black;
+    background-color: chartreuse;
+}
+
+#moves
+{
+    width: 150px;
+    height: 35px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    color: #000;
+    background-color: white;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+
+:root{
+    --line-border-fill: green;
+    --line-border-empty: grey;
+    
+}
+.progress-box{
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 65px;
+    margin-top: 50px;
+}
+
+.progress
+{
+    background: var(--line-border-fill);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.circle{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 13px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.active{
+    border-color: var(--line-border-fill);
+}
+.inactive{
+    border-color: var(--line-border-empty);
+}
