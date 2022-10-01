@@ -1,0 +1,343 @@
+body{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(44,62,80,1) 100%);
+}
+.main{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    box-shadow: 6vw -18vh 2px 3px #fff,
+                -12vw 1vh 1px 1px #fff,
+                -10vw 41vh 1px 1px #fff,
+                -22vw 12vh 1px 0px #fff,
+                -41vw 4vh 2px 1px #fff,
+                -1vw -18vh 0px 1px #fff,
+                25vw 28vh 3px 3px #fff,
+                -9vw 7vh 1px 2px #fff,
+                40vw 47vh 2px 1px #fff,
+                -4vw 21vh 2px 3px #fff,
+                9vw -27vh 0px 0px #fff,
+                -3vw 50vh 0px 3px #fff,
+                9vw 12vh 3px 3px #fff,
+                -25vw -41vh 2px 3px #fff,
+                46vw 44vh 3px 1px #fff,
+                -36vw -48vh 1px 0px #fff,
+                11vw -48vh 1px 3px #fff,
+                -9vw 2vh 1px 1px #fff,
+                -17vw 13vh 1px 0px #fff,
+                47vw -40vh 2px 0px #fff,
+                38vw 32vh 1px 3px #fff,
+                -2vw -39vh 2px 0px #fff,
+                -15vw -32vh 3px 1px #fff,
+                -35vw 25vh 3px 2px #fff,
+                26vw 31vh 1px 1px #fff,
+                -8vw 24vh 0px 1px #fff,
+                0vw -34vh 1px 0px #fff,
+                17vw 23vh 0px 1px #fff,
+                -24vw 5vh 2px 3px #fff,
+                -50vw 18vh 2px 2px #fff,
+                -18vw -12vh 2px 2px #fff,
+                35vw -40vh 2px 3px #fff,
+                -35vw 31vh 1px 2px #fff,
+                7vw 4vh 1px 0px #fff,
+                -10vw -8vh 0px 1px #fff,
+                -10vw -29vh 1px 2px #fff,
+                21vw 8vh 2px 1px #fff,
+                -35vw 15vh 1px 1px #fff,
+                32vw 44vh 0px 0px #fff,
+                -19vw -26vh 1px 2px #fff,
+                -19vw 49vh 3px 1px #fff,
+                -17vw 8vh 2px 2px #fff,
+                9vw 38vh 1px 2px #fff,
+                -35vw 44vh 2px 1px #fff,
+                34vw 2vh 1px 1px #fff,
+                -11vw 12vh 3px 2px #fff,
+                13vw 4vh 2px 0px #fff,
+                15vw 14vh 3px 2px #fff,
+                -8vw 24vh 0px 3px #fff,
+                -1vw -33vh 3px 2px #fff,
+                18vw 16vh 0px 0px #fff,
+                11vw 18vh 0px 2px #fff,
+                -21vw 9vh 1px 2px #fff,
+                -37vw 15vh 0px 0px #fff,
+                -28vw 3vh 3px 1px #fff,
+                15vw 31vh 0px 0px #fff,
+                32vw 44vh 1px 1px #fff,
+                9vw 16vh 3px 2px #fff,
+                -39vw 48vh 1px 2px #fff,
+                -13vw 42vh 2px 3px #fff,
+                -48vw -9vh 1px 2px #fff;
+    animation : zoom 10s infinite alternate;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+#menus{
+    text-align: center;
+}
+#menus #menu1{
+    margin-top: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+}
+#menus #menu1:hover{
+    background-color: chartreuse;
+    color: black;
+}
+#menus #menu2{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+}
+#menus #menu2:hover{
+    background-color: chartreuse;
+    color: black;
+}
+#menus #menu3{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+}
+#menus #menu3:hover{
+    background-color:chartreuse;
+    color: black;
+}
+#back{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+}
+#back:hover{
+    background-color: chartreuse;
+    color: black;
+}
+.type-animate{
+    border-style:dashed;
+    border-color: white;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    text-align: center;
+}
+.type-animate h3{
+    margin-top: 100px;
+    width: 36ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 40px;
+    padding-left: 200px;
+    color: goldenrod;
+    animation: typing 5s steps(36), blink .5s step-end infinite alternate;
+}
+.type-animate p{
+    font-size: 30px;
+    font-family: monospace;
+    color: goldenrod;
+}
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+.hide{
+    display: none;
+}
+
+:root{
+    --line-border-fill: green;
+    --line-border-empty: grey;
+    
+}
+.progress-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.progress
+{
+        background: var(--line-border-fill);
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        height: 4px;
+        width: 0%;
+        z-index: -1;
+        transition: 0.4s ease;
+}
+.circle{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 13px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.active{
+    border-color: var(--line-border-fill);
+}
+.inactive{
+    border-color: var(--line-border-empty);
+}
+#credits
+{
+    color:white;
+}
+#back1
+{
+    margin-left: 690px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+}
+#back1:hover{
+    background-color: chartreuse;
+    color: black;
+}
+#back2
+{
+    margin-top: 575px;
+    margin-bottom: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+}
+#back2:hover{
+    background-color: chartreuse;
+    color: black;
+}
+#next
+{
+    margin-top: 575px;
+    margin-bottom: 45px;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+}
+#next:hover{
+    background-color: chartreuse;
+    color: black;
+}
+#saff{
+    color: orangered;
+}
+#whit{
+    color:white;
+}
+#gree{
+    color: darkgreen;
+}
+.logo{
+    padding-top: 43px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-color: green;
+    border-style: dashed;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 600px;
+    height: 130px;
+}
+
+.copy
+{
+    margin-top: 80px;
+    color: green;
+}
+
+.copy #year{
+    font-size: 25px;
+    font-family: monospace;
+}
+.copy #copy{
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ins
+{
+    margin-left: 100px;
+    font-size:28px;
+    font-family: monospace;
+    color:green;
+}
+#game-info p{
+    text-align: center;
+    margin: auto;
+    font-family: monospace;
+    font-size: 54px;
+    color: green;
+    width: 20ch;
+    animation: typing 5s steps(20), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.type-animate1
+{
+    margin-top: 40px;
+}

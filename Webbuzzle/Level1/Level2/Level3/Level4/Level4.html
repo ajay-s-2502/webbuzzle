@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbuzzle: Level 4</title>
+    <link rel="stylesheet" href="Level4.css">
+    <link rel="icon" href="Icon.png">
+    <script src="Level4.js"></script>
+</head>
+<body>
+    <div class="main"></div>
+    <div class="progress-box">
+        <div class="'progress" id="progress"></div>
+        <div class="circle active"><img src="Tara.png" width="40" height="40" title="LEVEL 1&#10;Earth - Sweet Home 🏠"></div>
+        <div class="circle active"><img src="Tara.png" width="40" height="40" title="LEVEL 2&#10;Proxima Centauri - Neighbour !"></div>
+        <div class="circle active"><img src="Tara.png" width="40" height="40" title="LEVEL 3&#10;Barnard's Star - Slow Down !"></div>
+        <div class="circle active"><img src="Tara.png" width="40" height="40" title="LEVEL 4&#10;Luhman 16 - Binary Brown Dwarf !"></div>
+        <div class="circle inactive"><img src="Tarabw.png" width="40" height="40" title="LEVEL 5&#10;Wolf 359 - Good Job Mr. Max Wolf!"></div>
+        <div class="circle inactive"><img src="Tarabw.png" width="40" height="40" title="LEVEL 6&#10;Lalande 21185 - Histoire céleste française"></div>
+        <div class="circle inactive"><img src="Tarabw.png" width="40" height="40" title="LEVEL 7&#10;Sirius - Dog Star 🐶"></div>
+        <div class="circle inactive"><img src="Tarabw.png" width="40" height="40" title="LEVEL 8&#10;Procyon - 8th Brightest !"></div>
+        <div class="circle inactive"><img src="Tarabw.png" width="40" height="40" title="LEVEL 9&#10;Tau Ceti - Project Ozma 👽"></div>
+        <div class="circle inactive"><img src="Tarabw.png" width="40" height="40" title="LEVEL 10&#10;Big Bang - BOOM!!!"></div>
+    </div>
+    <div id="moves">Level 4</div>
+    <div id="grid">
+        <div class="index" id="p11" onclick="move('p11');">11</div>
+        <div class="index" id="p12" onclick="move('p12');">12</div>
+        <div class="index" id="p13" onclick="move('p13');">13</div>
+        <div class="index" id="p21" onclick="move('p21');">21</div>
+        <div class="index" id="p22" onclick="move('p22');">22</div>
+        <div class="index" id="p23" onclick="move('p23');">23</div>
+        <div class="index" id="p31" onclick="move('p31');">31</div>
+        <div class="index" id="p32" onclick="move('p32');">32</div>
+        <div class="index" id="p33" onclick="move('p33');">33</div>
+    </div>
+    <div id="launch" onclick="start();">Start</div>
+    <div id="next" onclick="nextLevel()" style="visibility: hidden;">Next Level</div>
+    <div id="replay" onclick="replay()" style="visibility: hidden;">Play Again</div>
+</body>
+</html>
