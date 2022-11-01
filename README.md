@@ -8,7 +8,7 @@ Play our game by opening 'webbuzzle.html' file in the main directory.
 Developers :        <br>
 Ajay S              <br>
 M Alex Benny        <br>
-Mohammed Fahiem     <br>
+Mohammed Fahiem A    <br>
 
 “The ultimate inspiration is the deadline”
 -Nolan Bushnell
